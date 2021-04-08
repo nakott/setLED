@@ -1,4 +1,4 @@
-// Set LED of Lodi, Copyright 2021 by Dirk Nakott
+// Set LED for Lodi, GNU GPL
 //
 // Call: java setLED <ip-address of LoDi SC> <node> <status> # set Status
 //       java setLED <ip-address of LoDi SC> <hh:mm>         # set Time
