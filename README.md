@@ -17,17 +17,23 @@ Um setLED unsichtbar aus TrainController™ heraus zu starten, kann das Programm
 Dieses Beispiel geht davon aus, dass setLED installiert ist in ``C:\Users\Dirk\Documents\setLED``. Dabei ist `Dirk` mit dem tatsächlichen Benutzer des PC zu ersetzen. 
 
 ### Dateien in den neuen Ordner "setLED" aus GitHub kopieren.
+
 ![](images/2.JPG)
 
 ### In der Datei `setLED.bat` die IP-Adresse des LoDi-Shift-Commander eintragen.
 
-### Windows Pfad anpassen, damit in TrainController™ kein Pfad eingegeben werden muss. Dazu in Windows suchen nach "Erweiterte Systemeinstellungen anzeigen". 
+### Windows Pfad anpassen
+
+Dient dazu, damit man in TrainController™ keinen Pfad eingegeben werden muss. Dazu in Windows suchen nach "Erweiterte Systemeinstellungen anzeigen". 
+
 ![](images/1.JPG)
 
 ### Übersicht Beispieldatei TC
+
 ![](images/3.JPG)
 
 ### TC Ein/Ausschalter anlegen
+
 ![](images/6.JPG)
 ![](images/7.JPG)
 - `setLED.bat 0 1` schaltet die Raumlicht-Kurve 1 bei Modul 0 ein.
@@ -35,7 +41,9 @@ Dieses Beispiel geht davon aus, dass setLED installiert ist in ``C:\Users\Dirk\D
 - `setLED.bat 0 0` schaltet das Raumlicht bei Modul 0 aus.
 
 ### In TC ein Marco zum Blitzen anlegen
+
 ![](images/4.JPG)
 ![](images/5.JPG)
+
 Das Macro wird dann in den Fahrplan um 23:00 eingetragen.
 
