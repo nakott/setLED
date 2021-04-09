@@ -16,11 +16,15 @@ Um setLED unsichtbar aus TrainController™ heraus zu starten, kann das Programm
 
 Dieses Beispiel geht davon aus, dass setLED installiert ist in ``C:\Users\Dirk\Documents\setLED``. Dabei ist `Dirk` mit dem tatsächlichen Benutzer des PC zu ersetzen. 
 
-### Dateien in den neuen Ordner "setLED" aus GitHub kopieren.
+### Dateien 
+
+In den neuen Ordner "setLED" diese Dateien kopieren.
 
 ![](images/2.JPG)
 
-### In der Datei `setLED.bat` die IP-Adresse des LoDi-Shift-Commander eintragen.
+### IP-Adresse setzen
+
+In der Datei `setLED.bat` die IP-Adresse des LoDi-Shift-Commander eintragen.
 
 ### Windows Pfad anpassen
 
