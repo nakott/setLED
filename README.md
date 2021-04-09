@@ -18,7 +18,7 @@ Dieses Beispiel geht davon aus, dass setLED installiert ist in ``C:\Users\Dirk\D
 
 ### 1. Dateien 
 
-In den neuen Ordner "setLED" diese Dateien kopieren.
+In den neuen Ordner `setLED` diese Dateien kopieren.
 
 ![](images/2.JPG)
 
