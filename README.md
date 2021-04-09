@@ -6,7 +6,7 @@ setLED ist ein kleines Java Programm, um [LoDi-Light-Operator 4-C-LED](https://w
 
 ## Randbedingungen
 
-setLED prüft die Input Parameter nicht. Eine falsche Eingabe führt zu einer Java Exception. 
+setLED prüft die Eingabe-Parameter nicht. Eine falsche Eingabe führt zu einer Java Exception. 
 
 ## Hinweis
 
