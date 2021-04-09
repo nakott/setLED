@@ -28,7 +28,7 @@ In der Datei `setLED.bat` die IP-Adresse des LoDi-Shift-Commander eintragen.
 
 ### 3. Windows Pfad anpassen
 
-Dient dazu, damit man in TrainController™ keinen Pfad eingegeben werden muss. Dazu in Windows suchen nach "Erweiterte Systemeinstellungen anzeigen". 
+Dient dazu, damit man in TrainController™ keinen Pfad eingegeben werden muss. Dazu in Windows suchen nach "Erweiterte Systemeinstellungen anzeigen". Dann wählen "Umgebungsvariablen". Dann `Path`unter "Systemvariablen" bearbeiten und Pfad von `setLED`hinzufügen.
 
 ![](images/1.JPG)
 
