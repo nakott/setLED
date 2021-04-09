@@ -39,9 +39,11 @@ Dient dazu, damit man in TrainController™ keinen Pfad eingegeben werden muss. 
 ### 5. TC Ein/Ausschalter anlegen
 
 Operationen beim Einschalten
+
 ![](images/6.JPG)
 
 Operationen beim Ausschalten
+
 ![](images/7.JPG)
 
 - `setLED.bat 0 1` schaltet die Raumlicht-Kurve 1 bei Modul 0 ein.
@@ -51,9 +53,11 @@ Operationen beim Ausschalten
 ### 6. TC Marco zum Blitzen anlegen
 
 Operationen
+
 ![](images/4.JPG)
 
 Bedingungen
+
 ![](images/5.JPG)
 
 Das Macro wird dann in den Fahrplan um 23:00 eingetragen.
