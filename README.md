@@ -34,6 +34,8 @@ Dient dazu, damit man in TrainController™ keinen Pfad eingegeben werden muss. 
 
 ### 4. Übersicht Beispieldatei TC
 
+Voraussetzung TC 90 B3 Gold
+
 ![](images/3.JPG)
 
 ### 5. TC Ein/Ausschalter anlegen
