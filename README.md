@@ -4,4 +4,4 @@ setLED is a tiny program to control the [LoDi-Light-Operator 4-C-LED](https://ww
 
 setLED does not check the input parameters at all. Wrong usage will end up in a java exception. 
 
-To run setLED hidden out of TrainController™, it is recommend to use the program [RunHidden.exe](https://www.robvanderwoude.com/csharpexamples.php#RunHidden). Otherwise you will see a black Windows command while setLED is executed.
+To run setLED hidden out of TrainController™, you can use the program [RunHidden.exe](https://www.robvanderwoude.com/csharpexamples.php#RunHidden). Otherwise you will see a black command window while setLED is executed.
