@@ -64,3 +64,8 @@ Bedingungen
 
 Das Macro wird dann in den Fahrplan um 23:00 eingetragen.
 
+## Links
+
+Diskussion dazu im [Lodi-Forum](https://www.lodi-forum.de/t345f18-LoDi-Operator-C-LED-und-TC.html)
+
+
