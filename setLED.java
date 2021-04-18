@@ -28,12 +28,10 @@ public class setLED {
     InetAddress address = InetAddress.getByName(host);
     final int   port    = 11092;
 
-    byte[] timeSet        = { (byte)0x20, (byte)0x77,
-                              (byte)0x42, (byte)0x00,
-			                  (byte)0x00 };
-    byte[] nodeStatusSend = { (byte)0x20, (byte)0x6C,
-                              (byte)0x42, (byte)0x01,
+    byte[] timeSet        = { (byte)0x20, (byte)0x77, (byte)0x42,
                               (byte)0x00, (byte)0x00 };
+    byte[] nodeStatusSend = { (byte)0x20, (byte)0x6C, (byte)0x42,
+                              (byte)0x01, (byte)0x00, (byte)0x00 };
 
     final int receiveSize = 4096;
 
