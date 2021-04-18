@@ -14,7 +14,7 @@ Um setLED unsichtbar aus TrainController™ heraus zu starten, kann das Programm
 
 ## Schritt für Schritt Anleitung
 
-Dieses Beispiel geht davon aus, dass setLED installiert ist in ``C:\Users\Dirk\Documents\setLED``. Dabei ist `Dirk` mit dem tatsächlichen Benutzer des PC zu ersetzen. 
+Dieses Beispiel geht davon aus, dass das setLED.class Java Programm installiert ist im Ordner `%USERPROFILE%\Documents\setLED`. Das entspricht bei mir lokal `C:\Users\Dirk\Documents\setLED`. Dabei ist `Dirk` der Benutzer mit dem ich mich am PC anmelde.  
 
 ### 1. Dateien 
 
