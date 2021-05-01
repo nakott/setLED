@@ -52,7 +52,7 @@ Operationen beim Ausschalten
 - `setLED.bat 08:00` setzt die LoDi-Shift-Commander Zeit auf 8:00 Uhr.
 - `setLED.bat 0 0` schaltet das Raumlicht bei Modul 0 aus.
 
-### 6. TC Marco zum Blitzen anlegen
+### 6. TC Macro zum Blitzen anlegen
 
 Operationen
 
