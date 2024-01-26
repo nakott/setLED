@@ -1,7 +1,8 @@
 // Set LED for Lodi, GNU GPL
 //
-// Call: java setLED <ip-address of LoDi SC> <node> <status> # set Status
-//       java setLED <ip-address of LoDi SC> <hh:mm>         # set Time
+// Call: java setLED <ip-address of LoDi SC> <node> <status> # set Status - see API NodeStatusSend
+//       java setLED <ip-address of LoDi SC> <hh:mm>         # set Time - see API TimeSet
+//       java setLED <ip-address of LoDi SC> F<factor>       # set Time Factor - see API TimeSpeedSet
 //
 // API documentation LoDi
 //   1. https://www.lokstoredigital.de/service/ger%C3%A4te-api/allgemeines/
@@ -30,6 +31,8 @@ public class setLED {
 
     byte[] timeSet        = { (byte)0x20, (byte)0x77, (byte)0x42,
                               (byte)0x00, (byte)0x00 };
+    byte[] timeSpeedSet   = { (byte)0x20, (byte)0x76, (byte)0x42,
+                              (byte)0x00 };
     byte[] nodeStatusSend = { (byte)0x20, (byte)0x6C, (byte)0x42,
                               (byte)0x01, (byte)0x00, (byte)0x00 };
 
@@ -48,6 +51,12 @@ public class setLED {
        timeSet[3] = high;
        timeSet[4] = low;
        packetSend = new DatagramPacket(timeSet, timeSet.length, address, port);
+    }
+    else if ( args[1].indexOf("F") != -1 ) {
+       int len = args[1].length();
+       byte factor = (byte)Integer.parseInt(args[1].substring(1,len));
+       timeSpeedSet[3] = factor;
+       packetSend = new DatagramPacket(timeSpeedSet, timeSpeedSet.length, address, port);
     }
     else {
        byte node = (byte)Integer.parseInt(args[1]);

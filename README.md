@@ -32,13 +32,23 @@ Dient dazu, damit man in TrainController™ keinen Pfad eingegeben werden muss. 
 
 ![](images/1.JPG)
 
-### 4. Übersicht Beispieldatei TC
+### 4. setLED Kommandos
+
+Der genaue Syntax ist in setLED.java beschrieben. 
+
+Beispiele:
+- `setLED.bat 0 1` schaltet die LoDi-Operator 4-C-LED Raumlicht-Kurve 1 bei Modul 0 ein.
+- `setLED.bat 0 0` schaltet das LoDi-Operator 4-C-LED Raumlicht bei Modul 0 aus.
+- `setLED.bat 07:00` setzt die LoDi-Operator 4-C-LED Zeit auf 7:00 Uhr.
+- `setLED.bat F3` setzt die LoDi-Operator 4-C-LED Geschwindigkeit des Zeitablaufs auf ein 3-faches der normalen Zeit (Faktor 3).
+
+### 5. Übersicht Beispieldatei TC
 
 Voraussetzung TC 90 B3 Gold
 
 ![](images/3.JPG)
 
-### 5. TC Ein/Ausschalter anlegen
+### 6. TC Ein/Ausschalter anlegen
 
 Operationen beim Einschalten
 
@@ -48,11 +58,7 @@ Operationen beim Ausschalten
 
 ![](images/7.JPG)
 
-- `setLED.bat 0 1` schaltet die Raumlicht-Kurve 1 bei Modul 0 ein.
-- `setLED.bat 08:00` setzt die LoDi-Shift-Commander Zeit auf 8:00 Uhr.
-- `setLED.bat 0 0` schaltet das Raumlicht bei Modul 0 aus.
-
-### 6. TC Macro zum Blitzen anlegen
+### 7. TC Macro zum Blitzen anlegen
 
 Operationen
 
