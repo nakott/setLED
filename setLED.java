@@ -74,14 +74,22 @@ public class setLED {
     System.out.println();  
 
     socket.send(packetSend);
-    socket.receive( packetReceive );
 
-    len  = packetReceive.getLength();
-    data = packetReceive.getData();
-    for ( int i=0; i<len; i++ ) {
-      System.out.printf( "%02X ", data[i] );
+    socket.setSoTimeout(1000); // in millisecounds
+
+    try {
+      socket.receive( packetReceive );
+
+      len  = packetReceive.getLength();
+      data = packetReceive.getData();
+      for ( int i=0; i<len; i++ ) {
+        System.out.printf( "%02X ", data[i] );
+      }
+      System.out.println();
     }
-    System.out.println();
+    catch (SocketTimeoutException e) {
+      System.out.println( "Timeout during receive" );
+    }
   } // main
 
 } // public class setLED

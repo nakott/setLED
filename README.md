@@ -41,6 +41,7 @@ Beispiele:
 - `setLED.bat 0 0` schaltet das LoDi-Operator 4-C-LED Raumlicht bei Modul 0 aus.
 - `setLED.bat 07:00` setzt die LoDi-Operator 4-C-LED Zeit auf 7:00 Uhr.
 - `setLED.bat F3` setzt die LoDi-Operator 4-C-LED Geschwindigkeit des Zeitablaufs auf ein 3-faches der normalen Zeit (Faktor 3).
+- `setLED.bat F0` setzt den LoDi-Operator 4-C-LED Zeitablauf auf Pause.
 
 ### 5. Übersicht Beispieldatei TC
 
